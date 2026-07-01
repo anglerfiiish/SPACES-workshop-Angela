@@ -4,3 +4,6 @@ library(ratdat)
 
 ggplot(complete_old, aes(x = hindfoot_length, y = weight))+
   geom_point()
+
+# make a comment
+ggplot(complete_old, aes(x = hindfoot_length,))
