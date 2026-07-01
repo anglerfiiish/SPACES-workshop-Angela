@@ -12,3 +12,6 @@ ggplot(complete_old, mapping = aes(x = weight, y = hindfoot_length, color = plot
 #make another plot 
 ggplot(complete_old, mapping = aes(x = plot_type, y = hindfoot_length, color = plot_type, shape = sex))+
   geom_violin()
+
+# Adam changes
+# Hi, sometimes I look around when my eyes are closed. Even though I know it won't change what I see.'
